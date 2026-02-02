@@ -10,9 +10,9 @@ def decide_camera_status(features, thresholds=None):
     # ค่า default threshold
     # -------------------------------
     default_thresholds = {
-        "blur": 80,
-        "dark": 15,
-        "texture": 15
+        "blur": 8838.987184,
+        "dark": 88.284735,
+        "texture": 43.735841
     }
 
     if thresholds is None:
