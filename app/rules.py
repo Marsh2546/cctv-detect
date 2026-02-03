@@ -50,9 +50,9 @@ def calculate_health_score(features, thresholds=None):
         return 0
 
     default_thresholds = {
-        "blur": 80,
-        "dark": 15,
-        "texture": 15
+        "blur": 946.974847,
+        "dark": 80.238052,
+        "texture": 43.895731
     }
 
     if thresholds is None:
